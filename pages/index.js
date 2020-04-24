@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -33,7 +33,10 @@ export default function Home() {
             className="card"
           >
             <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>
+              Discover and deploy boilerplate example Next.js projects. Also,
+              all of this will be deleted
+            </p>
           </a>
 
           <a
@@ -200,5 +203,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
